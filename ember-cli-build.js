@@ -20,5 +20,13 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+
+  // foundation
+  app.import('bower_components/foundation/css/foundation.css');
+  app.import('bower_components/foundation/css/normalize.css');
+  app.import('bower_components/foundation/js/foundation.min.js');
+  app.import('bower_components/foundation/js/foundation/foundation.tab.js');
+  app.import('bower_components/foundation/js/foundation/foundation.dropdown.js');
+
   return app.toTree();
 };
