@@ -1,0 +1,10 @@
+.about
+{
+  .banner-image
+  {
+    &::before
+    {
+      background: url('http://www.bonappetit.com/wp-content/uploads/2012/12/pan-roasted-brined-pork-chop-840x600.jpg') center/cover;
+    }
+  }
+}

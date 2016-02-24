@@ -4,6 +4,11 @@ body
   font-family: monospace;
 }
 
+h1, h2, h3, h4, h5, h6, p, span, a
+{
+  font-family: monospace;
+}
+
 .nav-bar
 {
   position: absolute;
@@ -14,9 +19,33 @@ body
   }
 }
 
+.main-section
+{
+  background-color: #fff;
+  padding: 50px;
+  @media #{$small-only}
+  {
+    padding: 20px;
+  }
+}
+
+.social
+{
+  background-color: #c9c9c9;
+  padding: 50px;
+}
+
 .footer
 {
   color: rgba(255,255,255,.4);
   padding: 50px;
   text-align: center;
+  .contact
+  {
+    padding: 15px;
+  }
+  .copyright
+  {
+    padding: 15px;
+  }
 }
