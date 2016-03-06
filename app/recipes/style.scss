@@ -4,7 +4,12 @@
   {
     &::before
     {
-      background: url('http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2012/2/22/0/EI1C01_grilled-lamb-chops_s4x3.jpg') center/cover;
+      background: url('/assets/images/lamb.jpg') center/cover;
     }
+  }
+  .text
+  {
+    text-align: center;
+    padding: 100px 10px;
   }
 }

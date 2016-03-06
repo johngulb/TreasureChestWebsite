@@ -14,7 +14,7 @@
     "qunit": "~1.20.0",
     "foundation": "5.5.2",
     "components-font-awesome": "~4.3.0",
-    "font-awesome": "~4.5.0",
+    "font-awesome": "^4.5.0",
     "bootstrap": "~3.3.5",
     "algoliasearch": "3",
     "masonry": "~4.0.0",

@@ -4,13 +4,26 @@
   {
     &::before
     {
-      background: url('http://www.gazettesites.com/butcherblock/wp-content/uploads/2014/05/Prime-Raw-Standing-Rib-Roast-01.jpg') center/cover;
+      background: url('/assets/images/beef.jpg') center/cover;
     }
+  }
+
+  .category
+  {
+    margin-bottom: 40px;
   }
 
   .product
   {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    .name
+    {
+      margin-bottom: 0px;
+    }
+    .desc
+    {
+      color: #666;
+    }
   }
 
   .side-nav
