@@ -1,12 +1,12 @@
 body
 {
   background-color: #202328;
-  font-family: monospace;
+  font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a
 {
-  font-family: monospace;
+  font-family: sans-serif;
 }
 
 .nav-bar
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p, span, a
   position: absolute;
   .nav-btn
   {
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 16px;
   }
 }
