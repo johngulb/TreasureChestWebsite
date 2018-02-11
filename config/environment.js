@@ -4,13 +4,48 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'treasure-chest',
     environment: environment,
-    baseURL: '/',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
+
+      fingerprint: {
+        extensions: ['js', 'css'],
+        exclude: ['images'],
+      },
+
+      // emberCLIDeploy: {
+      //   configFile: 'config/deploy.js', // optionally specifiy a different config file
+      //   shouldActivate: true, // optionally call the activate hook on deploy
+      // },
+
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      }
+      },
+
+      EXTEND_PROTOTYPES: {
+        // Prevent Ember Data from overriding Date.parse.
+        Date: false
+      },
+
+    },
+
+    moment: {
+      includeTimezone: 'all'
+    },
+
+    pageTitle: {
+      replace: true
+    },
+
+    contentSecurityPolicy: {
+      'default-src': "'none' https://s3.amazonaws.com",
+      'script-src': "'self'",
+      'font-src': "'self' https://fonts.gstatic.com",
+      'connect-src': "'self' https://s3.amazonaws.com",
+      'img-src': "'self'",
+      'style-src': "'self' https://fonts.googleapis.com",
+      'media-src': "'self'"
     },
 
     APP: {
@@ -29,7 +64,6 @@ module.exports = function(environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.baseURL = '/';
     ENV.locationType = 'none';
 
     // keep test console output quieter
@@ -40,7 +74,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    // ENV.googleAnalytics = {
+    //   webPropertyId: 'UA-92291373-2'
+    // };
   }
 
   return ENV;
