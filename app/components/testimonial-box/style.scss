@@ -1,0 +1,10 @@
+.testimonial-box {
+  .quote {
+    &:before {
+      content: '“'
+    }
+    &:after {
+      content: '”'
+    }
+  }
+}

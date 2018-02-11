@@ -10,9 +10,10 @@
       <p>My products are portion controlled which means there is no waste or leftovers regardless of whether you’re serving a large crowd or just one or two people. Most are vacuum packed to seal in flavor and extend shelf life. Many of my products can be baked or pan fried or quickly prepared — perfect for busy people!</p>
       <p>I guarantee all my products and will gladly replace or exchange any products that you are not satisfied with.</p>
     </div>
-    <div class="row referrals">
-      <h2>Refer a friend and you will both receive $30 in free food!</h2>
-      <p>Most of my business is through referrals, and I want to pay back some of the great referrals I’ve received over the years. If you mention me to a family member, friend, neighbor, co-worker, or anyone else who becomes a customer, I’ll send $30 worth of my delicious food your way. Same goes for every new customer you refer to me.</p>
+    <div class="row testimonials">
+      {{#each testimonials as |testimonial|}}
+        {{testimonial-box testimonial=testimonial}}
+      {{/each}}
     </div>
   </section>
 
