@@ -1,5 +1,6 @@
+import Ember from 'ember'
 
-class ProductsRoute extends Ember.Route
+ProductsRoute = Ember.Route.extend
 
   model: (params) ->
     {
@@ -253,4 +254,4 @@ class ProductsRoute extends Ember.Route
       ]
     }
 
-`export default ProductsRoute`
+export default ProductsRoute
