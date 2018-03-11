@@ -1,6 +1,6 @@
 body
 {
-  background-color: #202328;
+  background-color: #eee;
   font-family: 'NotoSans', verdana, sans-serif;
 }
 
@@ -16,6 +16,38 @@ h1, h2, h3, h4, h5, h6, p, span, a
   {
     font-family: sans-serif;
     font-size: 16px;
+  }
+}
+
+.main-logo
+{
+  max-width: 400px;
+  width: 75%;
+}
+
+.page-wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+
+md-tabs {
+  background-color: $primary-color;
+  border-radius: 0;
+  md-tabs-wrapper {
+    width: 100%;
+    // max-width: 45em;
+    margin: auto;
+  }
+  &.md-default-theme {
+    md-ink-bar {
+      background-color: #ddd;
+    }
+  }
+  md-tabs-canvas.md-center-tabs .md-tab {
+    // color: white;
+    &.md-active {
+      color: white;
+    }
   }
 }
 
@@ -38,6 +70,7 @@ h1, h2, h3, h4, h5, h6, p, span, a
 .footer
 {
   color: rgba(255,255,255,.4);
+  background-color: #202328;
   padding: 50px;
   text-align: center;
   .social-link

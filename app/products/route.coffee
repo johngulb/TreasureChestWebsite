@@ -10,38 +10,6 @@ ProductsRoute = Ember.Route.extend
           "slug": "beef",
           "products": [
             {
-              "name": "Prime Filet Mignon",
-              "desc": "Is almost non-existent anywhere. It has that extra flavor and tenderness you are looking for."
-            },
-            {
-              "name": "Prime Sirloin Cut Filet Mignon Style",
-              "desc": "These are so good you can fool your family and guests into thinking you really served them filet mignon at a big savings to you."
-            },
-            {
-              "name": "Prime New York Strip Center Cut",
-              "desc": "very tender and well marbled"
-            },
-            {
-              "name": "Prime New York",
-              "desc": "with the bone in"
-            },
-            {
-              "name": "Prime T-Bone",
-              "desc": "So much extra flavor around the bone"
-            },
-            {
-              "name": "Prime Porterhouse",
-              "desc": "Extra big for two - enjoy the New York Strip and the Filet Mignon all in one steak."
-            },
-            {
-              "name": "Prime Rib Eye Boneless",
-              "desc": "The most marbled and  tasty tender steak there is."
-            },
-            {
-              "name": "Dry-Aged Prime 30 days",
-              "desc": "This is the old fashion way of aging steak. It’s difficult to find anywhere and is unique and considered to be the best there is. I can get it in prime bone in cowboy rib eye or prime new York strip steak."
-            },
-            {
               "name": "Black Angus 21 day Wet Aged",
               "desc": "In order for beef to qualify for this program it must be in the top 3rd of grading for choice beef"
             },
@@ -50,36 +18,16 @@ ProductsRoute = Ember.Route.extend
               "desc": "tender and tasty"
             },
             {
+              "name": "Prime Sirloin Cut Filet Mignon Style",
+              "desc": "These are so good you can fool your family and guests into thinking you really served them filet mignon at a big savings to you."
+            },
+            {
+              "name": "Prime Rib Eye Boneless",
+              "desc": "The most marbled and  tasty tender steak there is."
+            },
+            {
               "name": "Black Angus New York Strip Center Cut",
               "desc": "so tender and delicious."
-            },
-            {
-              "name": "Black Angus Rib Eye",
-              "desc": "very tender and juicy"
-            },
-            {
-              "name": "Black Angus Rib Eye Cowboy Bone In",
-              "desc": "extra flavor around the bone"
-            },
-            {
-              "name": "Black Angus T-bone",
-              "desc": "Your dog will thank you for getting a steak with the bone in."
-            },
-            {
-              "name": "Black Angus Porterhouse",
-              "desc": "Enjoy that extra piece of filet mignon on it."
-            },
-            {
-              "name": "Black Angus Sirloin Strip",
-              "desc": "So tender for sirloin and very lean."
-            },
-            {
-              "name": "Black Angus Ball Tip Cut Filet Mignon Style",
-              "desc": "It’s tasty and economical but not quite as tender as my other steaks but tender enough."
-            },
-            {
-              "name": "Black Angus Ball Tip Strip",
-              "desc": "Again, it’s tasty and economical but not quite as tender as my other steaks but tender enough."
             },
             {
               "name": "Black Angus Ground Chuck",
@@ -104,23 +52,11 @@ ProductsRoute = Ember.Route.extend
               "desc": "Has a salt water solution added and are thin so you can bake, broil or grill from frozen and they come out juicy and tender every time."
             },
             {
-              "name": "Chicken Fingers",
-              "desc": "Have a light buttermilk breading and can be quickly baked from frozen. The chicken used is the center slice of the chicken breast."
-            },
-            {
-              "name": "Grilled Chicken Strips",
-              "desc": "Are fully cooked and grilled with a hint of seasoning and are used for salads, tacos, fajitas and sandwiches."
-            },
-            {
               "name": "Boneless skinless chicken breast",
               "desc": "antibiotic and hormone-free Amish chicken from Pennsylvania"
             },
             {
               "name": "Boneless skinless chicken thigh’s",
-              "desc": "antibiotic and hormone-free Amish chicken from Pennsylvania"
-            },
-            {
-              "name": "Airline Chicken Breasts",
               "desc": "antibiotic and hormone-free Amish chicken from Pennsylvania"
             },
             {
@@ -160,16 +96,16 @@ ProductsRoute = Ember.Route.extend
               "desc": "A wonderful delicacy. Our Norwegian Salmon filet is known for its leanness and clean, sweet flavor. Certified Kosher."
             },
             {
+              "name": "Alaskan Salmon (Wild-Caught)",
+              "desc": "A delicious selection, high in Omega 3 oils and a healthy way to enjoy the best salmon in the world."
+            },
+            {
               "name": "Norwegian Cod",
               "desc": "This is the best Cod I have found. Great flavor and firm texture."
             },
             {
               "name": "Norwegian Lemon-Pepper Cod",
               "desc": "Flavorful coating and ready to bake."
-            },
-            {
-              "name": "Alaskan Salmon (Wild-Caught)",
-              "desc": "A delicious selection, high in Omega 3 oils and a healthy way to enjoy the best salmon in the world."
             },
             {
               "name": "Bacon Cheddar Haddock",
@@ -200,28 +136,8 @@ ProductsRoute = Ember.Route.extend
               "desc": "From cold Alaskan waters. Split down the middle for easy removal of the meat. I recommend steaming them until hot. They are fully cooked during processing."
             },
             {
-              "name": "Red Snapper Filet (Wild Caught)",
-              "desc": "A delicious, lean fish found primarily in the Caribbean and popular at ocean-side resorts and restaurants."
-            },
-            {
-              "name": "Tilapia Filet",
-              "desc": "Tilapia is very versatile and easily adapts to most any cooking method. Excellent for broiling, grilling and sautéing."
-            },
-            {
               "name": "Garlic Herb Tilapia",
               "desc": "A delicious filet seasoned with garlic and herbs."
-            },
-            {
-              "name": "Coconut Tilapia",
-              "desc": "A favorite, this filet is encrusted with coconut for an absolutely delightful, delicious fish entree."
-            },
-            {
-              "name": "Tortilla Tilapia",
-              "desc": "This fish entree starts with a natural cut tilapia fillet, then encrusted with a delicious southwestern flavor combination of tortilla, chipotle and lime."
-            },
-            {
-              "name": "Swordfish (Sashimi Grade, Wild Caught)",
-              "desc": "You can tell the quality of this product by how light colored it is when raw. It will be mild with a firm meaty texture."
             },
             {
               "name": "Ahi Tuna (Wild Caught)",

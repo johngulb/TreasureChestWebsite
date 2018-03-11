@@ -1,8 +1,21 @@
 .index
 {
-  .main-logo
-  {
-    max-width: 400px;
-    width: 75%;
+  section.main-section {
+    max-width: 40em;
+    margin: auto;
+  }
+  .profile {
+    text-align: center;
+    padding: 16px;
+    .user-image {
+      margin: 12px auto;
+    }
+  }
+  .testimonials {
+    .title {
+      text-align: center;
+      padding: 1em;
+      font-size: 1.4em;
+    }
   }
 }
