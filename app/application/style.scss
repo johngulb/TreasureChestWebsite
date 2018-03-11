@@ -72,7 +72,13 @@ md-tabs {
   color: rgba(255,255,255,.4);
   background-color: #202328;
   padding: 50px;
+  font-size: 16px;
+  line-height: 2em;
   text-align: center;
+  @media #{$small-only} {
+    padding: 16px;
+    font-size: 14px;
+  }
   .social-link
   {
     background-color: #777;
@@ -84,6 +90,7 @@ md-tabs {
     opacity: 0.7;
     .fa
     {
+      font-size: 18px;
       color: #fff;
       padding: 10px;
     }
@@ -92,12 +99,18 @@ md-tabs {
       opacity: 0.9;
     }
   }
+  .user-profile
+  {
+    margin: 10px auto;
+  }
   .contact
   {
-    padding: 15px;
+    font-size: 1.2em;
+    padding: 12px;
   }
   .copyright
   {
-    padding: 15px;
+    font-size: 1em;
+    padding: 12px;
   }
 }
