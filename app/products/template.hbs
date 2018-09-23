@@ -1,35 +1,37 @@
 <div class="products">
 
   <section class="main-section">
-    <div class="row">
-      <div class="hide-for-small-only medium-3 columns">
-        <ul class="side-nav">
-          <li>
-            {{#link-to 'products' (query-params c=null)}}
-              All Products
-            {{/link-to}}
-          </li>
-          {{#each model.categories as |category|}}
+    <div class="container">
+      <div class="row">
+        <div class="hide-for-small-only medium-3 columns">
+          <ul class="side-nav">
             <li>
-              {{#link-to 'products' (query-params c=category.slug)}}
-                {{category.name}}
+              {{#link-to 'products' (query-params c=null)}}
+                All Products
               {{/link-to}}
             </li>
-          {{/each}}
-        </ul>
-      </div>
-      <div class="small-12 medium-9 columns">
-        {{#each categories as |category|}}
-          <section id="{{category.slug}}" class="category {{category.slug}}">
-            <h2>{{category.name}}</h2>
-            {{#each category.products as |product|}}
-              <div class="product">
-                <h3 class="name">{{product.name}}</h3>
-                <p class="desc">{{product.desc}}</p>
-              </div>
+            {{#each model.categories as |category|}}
+              <li>
+                {{#link-to 'products' (query-params c=category.slug)}}
+                  {{category.name}}
+                {{/link-to}}
+              </li>
             {{/each}}
-          </section>
-        {{/each}}
+          </ul>
+        </div>
+        <div class="small-12 medium-9 columns">
+          {{#each categories as |category|}}
+            <section id="{{category.slug}}" class="category {{category.slug}}">
+              <h2>{{category.name}}</h2>
+              {{#each category.products as |product|}}
+                <div class="product">
+                  <h3 class="name">{{product.name}}</h3>
+                  <p class="desc">{{product.desc}}</p>
+                </div>
+              {{/each}}
+            </section>
+          {{/each}}
+        </div>
       </div>
     </div>
   </section>

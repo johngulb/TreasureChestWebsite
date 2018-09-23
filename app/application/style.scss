@@ -54,10 +54,18 @@ md-tabs {
 .main-section
 {
   background-color: #eee;
-  padding: 50px;
   @media #{$small-only}
   {
     padding: 20px;
+  }
+  .container {
+    max-width: 50em;
+    padding: 50px;
+    margin: auto;
+  }
+  .row {
+    width: auto;
+    max-width: inherit;
   }
 }
 
