@@ -1,0 +1,20 @@
+.product-info {
+
+  margin-bottom: 10px;
+
+  .name
+  {
+    margin-bottom: 0px;
+    &.has-image {
+      cursor: pointer;
+      &:hover {
+        color: darkslateblue;
+      }
+    }
+  }
+  .desc
+  {
+    color: #666;
+  }
+
+}

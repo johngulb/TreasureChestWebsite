@@ -23,7 +23,8 @@ ProductsRoute = Ember.Route.extend
             },
             {
               "name": "Prime Rib Eye Boneless",
-              "desc": "The most marbled and  tasty tender steak there is."
+              "desc": "The most marbled and  tasty tender steak there is.",
+              "imageUrl": "https://c1.staticflickr.com/8/7550/15668813681_2f84f91d0c_b.jpg"
             },
             {
               "name": "Black Angus New York Strip Center Cut",

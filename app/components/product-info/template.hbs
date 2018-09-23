@@ -1,0 +1,10 @@
+<h3 class="name {{if product.imageUrl 'has-image'}}" {{action "showModal"}}>{{product.name}}</h3>
+<p class="desc">{{product.desc}}</p>
+
+{{#if product.imageUrl}}
+  {{image-modal
+      title=product.name
+      showModal=showModal
+      imageUrl=product.imageUrl
+      onClose=(action "closeModal")}}
+{{/if}}

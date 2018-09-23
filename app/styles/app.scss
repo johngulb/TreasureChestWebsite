@@ -6,8 +6,13 @@
 // @import "ember-paper-swiper";
 
 @import "settings";
-@import "pods";
+@import "components";
+@import "routes";
 
 body {
   font-family: 'NotoSans', verdana, sans-serif;
+}
+
+.md-dialog-container {
+  position: fixed;
 }

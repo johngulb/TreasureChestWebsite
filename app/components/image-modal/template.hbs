@@ -1,0 +1,9 @@
+{{#if showModal}}
+  {{#paper-dialog class="image-modal" openFrom="body" onClose=onClose clickOutsideToClose=true}}
+    <div class="header layout-row">
+      <div class="flex-grow title">{{title}}</div>
+      <i class="fa fa-close flex-none" {{action onClose}}></i>
+    </div>
+    <img src={{imageUrl}} />
+  {{/paper-dialog}}
+{{/if}}

@@ -24,10 +24,7 @@
             <section id="{{category.slug}}" class="category {{category.slug}}">
               <h2>{{category.name}}</h2>
               {{#each category.products as |product|}}
-                <div class="product">
-                  <h3 class="name">{{product.name}}</h3>
-                  <p class="desc">{{product.desc}}</p>
-                </div>
+                {{product-info product=product}}
               {{/each}}
             </section>
           {{/each}}
