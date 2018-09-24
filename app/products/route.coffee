@@ -9,17 +9,18 @@ ProductsRoute = Ember.Route.extend
           "name": "Beef",
           "slug": "beef",
           "products": [
-            {
-              "name": "Black Angus 21 day Wet Aged",
-              "desc": "In order for beef to qualify for this program it must be in the top 3rd of grading for choice beef"
-            },
+            # {
+            #   "name": "Black Angus 21 day Wet Aged",
+            #   "desc": "In order for beef to qualify for this program it must be in the top 3rd of grading for choice beef"
+            # },
             {
               "name": "Black Angus Center Cut Filet Mignon",
-              "desc": "tender and tasty"
+              "desc": "tender and tasty",
+              "imageUrl": "https://www.reviewjournal.com/wp-content/uploads/2018/03/10162862_web1_bavettes-mar04-18-002.jpg"
             },
             {
               "name": "Prime Sirloin Cut Filet Mignon Style",
-              "desc": "These are so good you can fool your family and guests into thinking you really served them filet mignon at a big savings to you."
+              "desc": "These are so good you can fool your family and guests into thinking you really served them filet mignon at a big savings to you.",
             },
             {
               "name": "Prime Rib Eye Boneless",
@@ -28,7 +29,8 @@ ProductsRoute = Ember.Route.extend
             },
             {
               "name": "Black Angus New York Strip Center Cut",
-              "desc": "so tender and delicious."
+              "desc": "so tender and delicious.",
+              "imageUrl": "https://i.pinimg.com/originals/91/6e/80/916e80a547cc323c02dcd3e052b76917.jpg"
             },
             {
               "name": "Black Angus Ground Chuck",
