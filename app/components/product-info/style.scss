@@ -8,7 +8,8 @@
     &.has-image {
       cursor: pointer;
       &:hover {
-        color: darkslateblue;
+        color: slateblue;
+        text-decoration: underline;
       }
     }
   }
